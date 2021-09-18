@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 5003;
 const {MONGOURI} = require('./config/keys');
 
 mongoose.connect(MONGOURI,{
